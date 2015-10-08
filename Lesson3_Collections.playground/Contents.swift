@@ -28,5 +28,12 @@ let allNumbers = moreNumbers + differentNumbers
 // An array can hold any type of object. 
 // var ciruit = [livingRoomSwitch, kitchenSwitch, bathroomSwitch]
 
+// Array operations: append, insert, remove count, retrieve 
+var roadTripMusic = ["Neil Young", "Kendrick Lama", "Flow Rida", "Nirvana"]
+roadTripMusic.append("Rae Sremmurd")
+roadTripMusic.insert("Dej Load", atIndex: 2)
+roadTripMusic.removeAtIndex(3)
+roadTripMusic.insert("Keith Urban", atIndex: 3)
+roadTripMusic.count
 
-
+let musician = roadTripMusic[2] 
