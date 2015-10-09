@@ -22,7 +22,7 @@ var colors = ["red", "orange", "yellow", "green", "blue", "violet"]
 spaniels.insert("indigo", atIndex: 5)
 //: ### Exercise 4
 //: Insert "English Cocker" into the spaniels array so that its index is before "English Springer".
-
+spaniels.insert("English Cocker", atIndex: 2)
 //: ### Exercise 5
 //: Append "Barcelona" to the end of the olympicHosts array.
 var olympicHosts = ["London", "Beijing","Athens", "Sydney", "Atlanta"]
