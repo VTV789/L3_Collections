@@ -7,7 +7,7 @@ import UIKit
 //: 1a) Initialize the array, cuteAnimals. It should be of type CuddlyCreature. Type your answer below.
 var cuteAnimals = [CuddlyCreature]()
 //: 1b) Initialize an array of 5 bools using array literal syntax.
-
+var boolArray = [true, false, false, true, true]
 //: ## Array operations: count, insert, append, remove, retrieveWithSubscript
 
 //: ### Exercise 2
