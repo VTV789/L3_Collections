@@ -55,6 +55,9 @@ animalGroupsDict["crows"] = "murder"
 animalGroupsDict["monkeys"] = "troop"
 print(animalGroupsDict)
 
+// Removing item from a dictionary 
+animalGroupsDict["crows"] = nil
+animalGroupsDict
 
 
 
