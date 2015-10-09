@@ -31,10 +31,14 @@ olympicHosts.append("Barcelona")
 //: Remove "Lyla" and "Daniel" from the waitingList array and add them to the end  of the admitted array.
 var admitted = ["Jennifer", "Vijay", "James"]
 var waitingList = ["Lyla", "Daniel", "Isabel", "Eric"]
+// Solution 
+var name = waitingList.removeAtIndex(0)
+admitted.append(name)
 //: ### Exercise 7
 //: Using subscript syntax, print out the 2nd and 3rd names from the admitted array.
 // Solution
 print("second: \(admitted[1]), third: \(admitted[2])")
+
 //: ## Dictionary initialization
 
 //: ### Exercise 8
