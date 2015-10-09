@@ -59,6 +59,14 @@ print(animalGroupsDict)
 animalGroupsDict["crows"] = nil
 animalGroupsDict
 
+// Updating a value
+animalGroupsDict["monkeys"] = "barrel"
+var group = animalGroupsDict.updateValue("gaggle", forKey: "geese")
+group.dynamicType
+
+animalGroupsDict.updateValue("crash", forKey: "rihinoceros")
+print(animalGroupsDict)
+
 
 
 
