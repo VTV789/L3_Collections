@@ -67,9 +67,17 @@ group.dynamicType
 animalGroupsDict.updateValue("crash", forKey: "rihinoceros")
 print(animalGroupsDict)
 
+// Retrieving the value for a particular key
+let groupOfWhales = animalGroupsDict["whales"]
 
+/* Why would the code below return an optional?
+animalGroupsDict["whales"] */
 
-
+if let groupOfWhales = animalGroupsDict["whales"] {
+    print("We saw a \"(groupOfWhales) of whales from the boat.")
+} else {
+    print("No value found for that key.")
+}
 
 
 
