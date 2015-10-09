@@ -13,6 +13,8 @@ var boolArray = [true, false, false, true, true]
 //: ### Exercise 2
 //: Print out the number of spaniels in the array below.
 var spaniels = ["American Cocker", "Cavalier King Charles", "English Springer", "French", "Irish Water","Papillon", "Picardy","Russian", "French", "Welsh Springer"]
+
+print(spaniels.count)
 //: ### Exercise 3
 //: Insert "indigo" into the array below so that its index is after "blue" and before "violet".
 
