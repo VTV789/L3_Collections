@@ -50,7 +50,10 @@ var animalGroupsDict = ["whales": "pod", "geese": "flock", "lions": "pride"]
 var averageLifeSpanDict = [String:Range<Int>]()
 var lifeSpanDict = ["African Grey Parrot": 50...70, "Tiger Salmander": 12...50, "Bottlenose Dophin": 20...30]
 
-
+/* Dictionary operations: insert, remove, count, update, retrieve */
+animalGroupsDict["crows"] = "murder"
+animalGroupsDict["monkeys"] = "troop"
+print(animalGroupsDict)
 
 
 
