@@ -19,6 +19,7 @@ print(spaniels.count)
 //: Insert "indigo" into the array below so that its index is after "blue" and before "violet".
 
 var colors = ["red", "orange", "yellow", "green", "blue", "violet"]
+spaniels.insert("indigo", atIndex: 5)
 //: ### Exercise 4
 //: Insert "English Cocker" into the spaniels array so that its index is before "English Springer".
 
