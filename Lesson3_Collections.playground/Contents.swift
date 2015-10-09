@@ -36,4 +36,33 @@ roadTripMusic.removeAtIndex(3)
 roadTripMusic.insert("Keith Urban", atIndex: 3)
 roadTripMusic.count
 
-let musician = roadTripMusic[2] 
+let musician = roadTripMusic[2]
+
+
+// Dictionary initializing 
+// Initializer syntax 
+var groupsDict = [String:String]()
+
+// Dictionary Literal
+var animalGroupsDict = ["whales": "pod", "geese": "flock", "lions": "pride"]
+
+// Another Example
+var averageLifeSpanDict = [String:Range<Int>]()
+var lifeSpanDict = ["African Grey Parrot": 50...70, "Tiger Salmander": 12...50, "Bottlenose Dophin": 20...30]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
