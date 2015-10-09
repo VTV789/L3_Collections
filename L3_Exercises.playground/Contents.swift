@@ -26,6 +26,7 @@ spaniels.insert("English Cocker", atIndex: 2)
 //: ### Exercise 5
 //: Append "Barcelona" to the end of the olympicHosts array.
 var olympicHosts = ["London", "Beijing","Athens", "Sydney", "Atlanta"]
+olympicHosts.append("Barcelona")
 //: ### Exercise 6
 //: Remove "Lyla" and "Daniel" from the waitingList array and add them to the end  of the admitted array.
 var admitted = ["Jennifer", "Vijay", "James"]
