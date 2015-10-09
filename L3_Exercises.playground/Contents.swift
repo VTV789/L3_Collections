@@ -42,9 +42,9 @@ print("second: \(admitted[1]), thirld: \(admitted[2])")
 
 //: ### Exercise 8
 //: a) Initialize an empty dictionary which holds Strings as keys and Bools as values.
-
+var dic = [String: Bool]()
 //: b) Initialize a dictionary using array literal syntax. The keys should be the Strings: "Anchovies", "Coconut", "Cilantro", "Liver"  and each value should be a Bool representing whether you like the food or not.
-
+var polarFoods = ["Anchovies":true, "Coconut":true, "Cilantro":true, "Liver":false]
 //: ## Dictionary operations: count, insert, remove, update, retrieve with subscript
 
 //: ### Exercise 9
