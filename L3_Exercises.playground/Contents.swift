@@ -65,6 +65,7 @@ presidentialPetsDict["George W. Bush"] = oldValue
 //: ### Exercise 11
 //: We've initialized a new dictionary of presidentialDogs with the entries from presidentialPets. Update the entry for Bill Clinton by replacing "Socks" the cat with "Buddy" the dog.
 var presidentialDogs = presidentialPetsDict
+presidentialPetsDict["Bill Clintion"] = "Buddy" 
 //: ### Exercise 12
 //: Use subscript syntax to fill in the println statement below and produce the following string: "Michele Obama walks Bo every morning." You'll need to retrieve a value from the presidentialDogs dictionary and unwrap it using if let.
 //print("Michele Obama walks \() every morning.")
