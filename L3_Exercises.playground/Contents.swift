@@ -69,6 +69,12 @@ presidentialPetsDict["Bill Clintion"] = "Buddy"
 //: ### Exercise 12
 //: Use subscript syntax to fill in the println statement below and produce the following string: "Michele Obama walks Bo every morning." You'll need to retrieve a value from the presidentialDogs dictionary and unwrap it using if let.
 //print("Michele Obama walks \() every morning.")
+
+if let dog = presidentialDogs["Barack Obama"] {
+    print("Michele Obama walks \(dog) every morning.")
+} else {
+    print("No value found")
+}
 //: ### Exercise 13
 // How many studio albums did Led Zeppelin release?
 var studioAlbums = ["Led Zeppelin":1969, "Led Zeppelin II": 1969, "Led Zeppelin III": 1970, "Led Zeppelin IV": 1971, "Houses of the Holy":1973, "Physical Graffiti": 1975, "Presence":1976, "In Through the Out Door":1979, "Coda":1982]
