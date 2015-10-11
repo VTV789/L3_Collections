@@ -53,6 +53,8 @@ var presidentialPetsDict = ["Barack Obama":"Bo", "Bill Clinton": "Socks", "Georg
 
 //desired output
 // ["Barack Obama":"Bo", "George Bush": "Miss Beazley","Bill Clinton": "Socks", "George H. W. Bush": "Millie", "Ronald Reagan": "Lucky"]
+
+
 //: ### Exercise 10
 //: Remove the entry for "George Bush" and replace it with an entry for "George W. Bush".
 
